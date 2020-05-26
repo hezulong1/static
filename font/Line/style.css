@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Line;
+    src: url(line.eot);
+    src: url(line.eot?#iefix) format('embedded-opentype'),url(line.woff2) format('woff2'),url(line.woff) format('woff'),url(line.ttf) format('truetype');
+	font-display: block;
+}
