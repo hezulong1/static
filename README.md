@@ -26,8 +26,8 @@ https://cdn.jsdelivr.net/gh/hezulong1/cdn
 - `jquery.js`: https://cdn.bootcss.com/jquery/1.12.1/jquery.js
 - `unsplash.js`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/code/unsplash.min.js
 - `dom-ready.js`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/code/dom-ready.min.js
-- `scrollbar.js`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/code/scrollbar/index.min.js
-- `scrollbar.css`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/code/scrollbar/index.min.css
+- `scrollbar.js`: https://cdn.jsdelivr.net/gh/hezulong1/scrollbar/index.js
+- `scrollbar.css`: https://cdn.jsdelivr.net/gh/hezulong1/scrollbar/style.css
 
 ### Font
 
