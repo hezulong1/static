@@ -13,8 +13,6 @@ https://cdn.jsdelivr.net/gh/hezulong1/cdn
 ### Image
 
 - `favicon.ico`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/favicon.ico
-- `favicon2.ico`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/favicon2.ico
-- `h.svg`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/image/h.svg
 - `404.png`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/image/404.png
 - `avatar.jpg`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/image/avatar.jpg
 - `slider/1.jpg`: https://cdn.jsdelivr.net/gh/hezulong1/cdn/image/slider/1.jpg

@@ -1,96 +1,110 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>字体</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="Eina/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="Eina03/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="Line/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="BookmanOldStyle/style.css" />
-    <style>
-        .eina {
-            font-family: 'Eina'
-        }
-        .eina03 {
-            font-family: 'Eina03'
-        }
-        .line {
-            user-select: none;
-            line-height: 0.75em;
-            letter-spacing: -2px;
-            color: rgb(230, 236, 241);
-            font-family: 'Line';
-            font-size: 1.3em;
-            animation-name: shine;
-            animation-duration: 0.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-out;
-            animation-direction: alternate-reverse;
-        }
-        .bos {
-            font-family: "Bookman Old Style";
-        }
-        .b {
-          font-weight: 600;
-        }
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>字体</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Eina/style.css" />
+  <link rel="stylesheet" href="Eina03/style.css" />
+  <link rel="stylesheet" href="Line/style.css" />
+  <link rel="stylesheet" href="BookmanOldStyle/style.css" />
+  <style>
+    .eina {
+      font-family: 'Eina'
+    }
 
-        .h1 {
-            font-size: 40px;
-        }
+    .eina03 {
+      font-family: 'Eina03'
+    }
 
-        @keyframes shine {
-            0% {
-                opacity: 0.5;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
+    .line {
+      user-select: none;
+      line-height: 0.75em;
+      letter-spacing: -2px;
+      color: rgb(230, 236, 241);
+      font-family: 'Line';
+      font-size: 1.3em;
+      animation-name: shine;
+      animation-duration: 0.6s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-out;
+      animation-direction: alternate-reverse;
+    }
+
+    .bos {
+      font-family: "Bookman Old Style";
+      font-family: "BookmanOldStyle", 'STSong','SimSun','MingLiU','宋体', serif;
+    }
+
+    .h1 {
+      font-size: 40px;
+    }
+
+    fieldset {
+      width: 400px;
+    }
+
+    @keyframes shine {
+      0% {
+        opacity: 0.5;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <fieldset>
-        <legend>eina</legend>
-        <div>
-            <p class="eina">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-            <p class="eina">abcdefghijklmnopqrstuvwxyz</p>
-            <p class="eina">0123456789</p>
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>eina03</legend>
-        <div>
-            <p class="eina03">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-            <p class="eina03">abcdefghijklmnopqrstuvwxyz</p>
-            <p class="eina03">0123456789</p>
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>line</legend>
-        <div>
-            <span class="line h1">line</span>
-            <p class="line">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-            <p class="line">abcdefghijklmnopqrstuvwxyz</p>
-            <p class="line">0123456789</p>
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>bookman old style 2.35</legend>
-        <div>
-            <p class="bos">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-            <p class="bos">abcdefghijklmnopqrstuvwxyz</p>
-            <p class="bos">0123456789</p>
-        </div>
-    </fieldset>
-    <fieldset>
-      <legend>bookman old style bold 2.35</legend>
-      <div>
-          <p class="bos b">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p class="bos b">abcdefghijklmnopqrstuvwxyz</p>
-          <p class="bos b">0123456789</p>
-      </div>
+  <fieldset>
+    <legend>Eina</legend>
+    <div>
+      <p class="eina">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      <p class="eina">abcdefghijklmnopqrstuvwxyz</p>
+      <p class="eina">0123456789!@#~$%^&*()_+-./</p>
+      <p class="eina">你好，世界</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Eina03</legend>
+    <div>
+      <p class="eina03">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      <p class="eina03">abcdefghijklmnopqrstuvwxyz</p>
+      <p class="eina03">0123456789!@#~$%^&*()_+-./</p>
+      <p class="eina03">你好，世界</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>line</legend>
+    <div>
+      <span class="line h1">line</span>
+      <p class="line">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      <p class="line">abcdefghijklmnopqrstuvwxyz</p>
+      <p class="line">0123456789!@#~$%^&*()_+-./</p>
+      <p class="line">你好，世界</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>BookmanOldStyle 2.35</legend>
+    <div>
+      <p class="bos">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      <p class="bos">abcdefghijklmnopqrstuvwxyz</p>
+      <p class="bos">0123456789!@#~$%^&*()_+-./</p>
+      <p class="bos">你好，世界</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>BookmanOldStyle 2.35 - Bold</legend>
+    <div>
+      <p class="bos"><b>ABCDEFGHIJKLMNOPQRSTUVWXYZ</b></p>
+      <p class="bos"><b>abcdefghijklmnopqrstuvwxyz</b></p>
+      <p class="bos"><b>0123456789!@#~$%^&*()_+-./</b></p>
+      <p class="bos"><b>你好，世界</b></p>
+    </div>
   </fieldset>
 </body>
+
 </html>
