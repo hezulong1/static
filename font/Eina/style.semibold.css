@@ -1,0 +1,6 @@
+@font-face {
+  font-family: Eina;
+  src: url(eina-semibold.eot);
+  src: url(eina-semibold.eot?#iefix) format('embedded-opentype'),url(eina-semibold.woff2) format('woff2'),url(eina-semibold.woff) format('woff'),url(eina-semibold.ttf) format('truetype');
+  font-weight: 600;
+}
